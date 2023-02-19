@@ -1,0 +1,36 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task__text {
+  width: 500px;
+  height: 50px;
+  border: 3px solid rgb(60, 15, 240);
+}
+
+.task__btn, .task-container__btn {
+  width: 200px;
+  height: 50px;
+  color: aliceblue;
+  background-color: rgb(12, 4, 56);
+  font-size: 18px;
+}
+
+.task-list {
+  border: 2px solid rgb(60, 15, 240);
+  list-style: none;
+  height: 500px;
+}
+
+.task-list__item {
+  font-size: 18px;
+}
+
+.notasks {
+  display: flex;
+  font-size: 30px;
+  color: rgb(142, 138, 138);
+  justify-self: center;
+}/*# sourceMappingURL=style.css.map */
